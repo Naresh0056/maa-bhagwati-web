@@ -121,8 +121,13 @@
               "devServerTarget": "maa-bhagwati-web:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "maa-bhagwati-web"
 }
